@@ -1,0 +1,11 @@
+USE PRIME;
+
+-- VISIT INNER JOIN FILE FOR FULL CODE
+SELECT * FROM customers;
+SELECT * FROM orders;
+
+-- CROSS JOIN
+SELECT * FROM customers
+CROSS JOIN orders;
+
+
